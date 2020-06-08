@@ -451,7 +451,7 @@ export const RundownViewBuckets = translate()(
 					{buckets &&
 						buckets.map((bucket, index) => (
 							<div
-								className="rundown-view__shelf__contents__pane"
+								className="rundown-view__shelf__contents__pane rundown-view__shelf__contents__pane--bucket"
 								key={unprotectString(bucket._id)}
 								style={{
 									minWidth: this.state.panelWidths[index] * 100 + 'vw',

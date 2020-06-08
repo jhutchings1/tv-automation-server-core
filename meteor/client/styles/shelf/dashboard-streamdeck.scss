@@ -4,6 +4,12 @@
 	button size 96px */ screen and (width: 768px) and (height: 384px),
 	/** Stream Deck Mini,
 	button size 80px */ screen and (width: 240px) and (height: 160px) {
+	#render-target > .container-fluid {
+		> .notification-pop-ups {
+			display: none;
+		}
+	}
+
 	#render-target > .container-fluid > .rundown-view {
 		background: #000;
 
@@ -48,6 +54,10 @@
 
 	#render-target > .container-fluid > .rundown-view__shelf.dark.full-viewport > .rundown-view__shelf__contents {
 		background: #000;
+
+		.rundown-view__shelf__contents__pane--bucket {
+			display: none;
+		}
 	}
 
 	#render-target
