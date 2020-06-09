@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: i18next-conv\n"
-"POT-Creation-Date: 2020-06-08T12:52:23.816Z\n"
-"PO-Revision-Date: 2020-06-08 15:22+0200\n"
+"POT-Creation-Date: 2020-06-09T08:40:29.580Z\n"
+"PO-Revision-Date: 2020-06-09 14:27+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: nb\n"
@@ -658,10 +658,10 @@ msgid "Unknown Device"
 msgstr "Ukjent enhet"
 
 msgid "Delete this Studio?"
-msgstr "Slett denne studio?"
+msgstr "Slett dette studioet?"
 
 msgid "Are you sure you want to delete the studio \"{{studioId}}\"?"
-msgstr "Er du sikker på at du vil slette studio \"{{studioId}}\"?"
+msgstr "Er du sikker på at du vil slette studioet \"{{studioId}}\"?"
 
 msgid "Delete this Show Style?"
 msgstr "Slett denne showstylen?"
@@ -1038,10 +1038,10 @@ msgid "Port"
 msgstr "Port"
 
 msgid "CasparCG Launcher Host"
-msgstr "CasparCG Launcher vert"
+msgstr "Vert for CasparCG Launcher"
 
 msgid "CasparCG Launcher Port"
-msgstr "CasparCG Launcher port"
+msgstr "Port for CasparCG Launcher"
 
 msgid "Sources Path"
 msgstr "Kildesti"
@@ -1104,7 +1104,7 @@ msgid "Preload all elements"
 msgstr "Last inn alle elementer på forhånd"
 
 msgid "Automatically load internal elements when added"
-msgstr ""
+msgstr "Last interne elementer automatisk når de blir lagt til"
 
 msgid "Clear-All template name"
 msgstr ""
@@ -1116,7 +1116,7 @@ msgid "Dont deactivate on stand-down (deactivate rundown)"
 msgstr ""
 
 msgid "Only preload elements in active Rundown"
-msgstr ""
+msgstr "Kun forhåndslast elementer i aktiv kjøreplan"
 
 msgid "On preload-All elements, also initialize the rundown playlist again"
 msgstr ""
@@ -1130,8 +1130,9 @@ msgstr "Bruk flere tråder for Timeline Resolving"
 msgid "(Restart to apply)"
 msgstr "(Start på nytt for å ta i bruk endringer)"
 
+#, fuzzy
 msgid "Report command timings on all commangs"
-msgstr ""
+msgstr "Rapporter kommandotider for alle commangs"
 
 msgid "Connect some devices to the playout gateway"
 msgstr "Koble til en eller flere enheter til playout gatewayen"
@@ -1310,7 +1311,7 @@ msgid "Height"
 msgstr "Høyde"
 
 msgid "Only Match Global AdLibs"
-msgstr "Vis kun treff med hurtigtaster"
+msgstr "Vis kun globale adliber"
 
 msgid "Name"
 msgstr "Navn"
@@ -1322,10 +1323,10 @@ msgid "Show thumbnails next to list items"
 msgstr "Vis miniatyrbilder ved siden av listeelementer"
 
 msgid "Button width scale factor"
-msgstr "Målestokk for knappens bredde"
+msgstr "Breddeskala for knapp"
 
 msgid "Button height scale factor"
-msgstr "Målestokk for knappens høyde"
+msgstr "Høydeskala for knapp"
 
 msgid "Display Rank"
 msgstr "Rangering for visning"
@@ -1334,16 +1335,16 @@ msgid "Enable search toolbar"
 msgstr "Aktiver søkeverktøy"
 
 msgid "Only Display AdLibs from Current Segment"
-msgstr "Vis kun hurtigtaster fra gjeldende segment"
+msgstr "Vis kun adliber fra gjeldende segment"
 
 msgid "Include Global AdLibs"
-msgstr "Inkluder hurtigtaster"
+msgstr "Inkluder globale adliber"
 
 msgid "Filter Disabled"
 msgstr "Filter deaktivert"
 
 msgid "Include Clear Source Layer in Ad-Libs"
-msgstr "Ta med\"Tøm kildelag\" i manuelle elementer"
+msgstr "Ta med\"Tøm kildelag\" i adliber"
 
 msgid "Source Layer Types"
 msgstr "Kildelagstyper"
@@ -1360,15 +1361,15 @@ msgstr "Tagger må inneholde"
 msgid "Register Shortcuts for this Panel"
 msgstr "Legg til snarveier for dette panelet"
 
-#, fuzzy
 msgid "Hide Panel from view"
-msgstr "Skjul dette panelet"
+msgstr "Ikke vis dette panelet"
 
 msgid "Show panel as a timeline"
 msgstr "Vis panel som en tidslinje"
 
+#, fuzzy
 msgid "Overflow horizontally"
-msgstr ""
+msgstr "Overflyt horisontalt"
 
 msgid "Display Take buttons"
 msgstr "Vis Take-knapp"
@@ -1377,13 +1378,13 @@ msgid "Queue all adlibs"
 msgstr ""
 
 msgid "Scale"
-msgstr ""
+msgstr "Skala"
 
 msgid "Role"
 msgstr "Rolle"
 
 msgid "Adlib Rank"
-msgstr ""
+msgstr "Adlib-rang"
 
 msgid "Place label below panel"
 msgstr "Plasser etikett under panel"
@@ -1457,7 +1458,7 @@ msgid "Property"
 msgstr "Egenskap"
 
 msgid "Runtime Arguments for Blueprints"
-msgstr "Runtimeargument for blueprints"
+msgstr "Runtimeargumenter for blueprints"
 
 msgid "Camera"
 msgstr "Kamera"
@@ -1535,17 +1536,16 @@ msgid "Display on Presenter's Screen"
 msgstr "Vis på presentatørskjerm"
 
 msgid "Shortcut List"
-msgstr "Liste over funksjonstaster"
+msgstr "Liste over huritgtaster"
 
 msgid "Clear Shortcut"
-msgstr "Fjern funksjonstast"
+msgstr "Fjern hurtigtast"
 
 msgid "Assign Hotkeys to Global AdLibs"
-msgstr "Tildel kommandoer til hurtigtaster"
+msgstr "Tildel hurtigtaster til globale adliber"
 
-#, fuzzy
 msgid "Pieces on this layer are sticky"
-msgstr "Manuelle elementer på dette laget kan legges på preview"
+msgstr ""
 
 msgid "Only Pieces present in rundown are sticky"
 msgstr ""
@@ -1553,16 +1553,15 @@ msgstr ""
 msgid "Activate Sticky Piece Shortcut"
 msgstr ""
 
-#, fuzzy
-#| msgid "Allow disabling of elements"
 msgid "Allow disabling of Pieces"
 msgstr "Tillat deaktivering av elementer"
 
 msgid "AdLibs on this layer can be queued"
-msgstr "Manuelle elementer på dette laget settes i kø"
+msgstr "Adliber på dette laget settes i kø"
 
+#, fuzzy
 msgid "Exclusivity group"
-msgstr ""
+msgstr "Ekslusivitetsgruppe"
 
 msgid ""
 "Add some source layers (e.g. Graphics) for your ENPS data to appear in "
@@ -1706,13 +1705,13 @@ msgid "CasparCG Layer"
 msgstr "CasparCG-lag"
 
 msgid "The layer in a channel to use"
-msgstr "Laget i en kanal som skal brukes"
+msgstr "Kanallaget som skal brukes"
 
 msgid "Preview when not on air"
 msgstr ""
 
 msgid "Whether to load to first frame"
-msgstr ""
+msgstr "Første frame skal vises"
 
 msgid "Mapping type"
 msgstr "Mappingtype"
@@ -1772,11 +1771,9 @@ msgstr "Lag-id"
 msgid "ID of the timeline-layer to map to some output"
 msgstr ""
 
-#, fuzzy
 msgid "The type of device to use for the output"
 msgstr "Enhetstype som skal brukes for utgangen"
 
-#, fuzzy
 msgid ""
 "ID of the device (corresponds to the device ID in the peripheralDevice "
 "settings)"
@@ -1786,10 +1783,10 @@ msgid "Lookahead Mode"
 msgstr "Lookahead-modus"
 
 msgid "Lookahead Target Objects (Default = 1)"
-msgstr ""
+msgstr "Lookahead målobjekter (standard = 1)"
 
 msgid "Lookahead Maximum Search Distance (Default = unlimited/-1"
-msgstr ""
+msgstr "Lookahead maksimum søkelengde (standard = ubegrenset / -1)"
 
 msgid "Layer Mappings"
 msgstr "Lagmappinger"
@@ -1881,39 +1878,34 @@ msgid "Clear {{layerName}}"
 msgstr "Tøm {{layerName}}"
 
 msgid "Invalid AdLib"
-msgstr "Ugyldig manuelt element"
+msgstr "Ugyldig adlib"
 
 msgid "Cannot play this AdLib because it is marked as Invalid"
-msgstr "Kan ikke spille av manuelt element fordi det er markert som ugyldig"
+msgstr "Kan ikke spille av adlib fordi den er markert som ugyldig"
 
-#, fuzzy
-#| msgid "Global AdLib"
 msgid "Floated AdLib"
-msgstr "Hurtigtast"
+msgstr "Adlib satt på vent"
 
 msgid "Cannot play this AdLib because it is marked as Floated"
-msgstr ""
-"Kan ikke spille av manuelt element fordi det er markert som på vent (float)"
+msgstr "Kan ikke spille av adlib fordi den er markert som på vent (float)"
 
 msgid "Cannot play this AdLib becasue it is marked as Invalid"
-msgstr "Kan ikke spille av manuelt element (markert som ugyldig)"
+msgstr "Kan ikke spille av adlib fordi den er markert som ugyldig"
 
 msgid "Cannot play this AdLib becasue it is marked as Floated"
-msgstr ""
-"Kan ikke spille av manuelt element fordi det er markert som på vent (float)"
+msgstr "Kan ikke spille av adlib fordi det er markert som på vent (float)"
 
 msgid "New Bucket"
 msgstr "Ny bøtte"
 
 msgid "Are you sure you want to delete this AdLib?"
-msgstr "Er du sikker på at du vil slette dette manuelle elementet?"
+msgstr "Er du sikker på at du vil slette denne adliben?"
 
 msgid "Are you sure you want to delete this Bucket?"
 msgstr "Er du sikker på at du vil slette denne bøtten?"
 
 msgid "Are you sure you want to empty (remove all adlibs inside) this Bucket?"
-msgstr ""
-"Er du sikker på at du vil tømme (fjerne alle elementer fra) denne bøtten?"
+msgstr "Er du sikker på at du vil tømme denne bøtten (fjerner alle adliber)?"
 
 msgid "Delete this AdLib"
 msgstr "Slett dette elementet"
@@ -1937,13 +1929,13 @@ msgid "Escape from filter search"
 msgstr "Gå ut av filtersøk"
 
 msgid "AdLib"
-msgstr "Manuelle elementer"
+msgstr "Adlib"
 
 msgid "Global AdLib"
-msgstr "Hurtigtast"
+msgstr "Globale adliber"
 
 msgid "Shortcuts"
-msgstr "Funksjonstaster"
+msgstr "Hurtigtaster"
 
 msgid "System"
 msgstr "System"
@@ -2057,7 +2049,7 @@ msgid "Restart All"
 msgstr "Start alle på nytt"
 
 msgid "Do you want to restart CasparCG Server?"
-msgstr "Er du sikker på at du vil restarte Caspar?"
+msgstr "Er du sikker på at du vil restarte CasparCG?"
 
 msgid "Restart Quantel Gateway"
 msgstr "Start Quantel Gateway på nytt"
@@ -2124,10 +2116,10 @@ msgid "Execution time"
 msgstr "Eksekveringsvarighet"
 
 msgid "User ID"
-msgstr "Bruker-ID"
+msgstr "Bruker-id"
 
 msgid "Client IP"
-msgstr "Klient-IP"
+msgstr "Klient-ip"
 
 msgid "Action"
 msgstr "Handling"
@@ -2189,12 +2181,9 @@ msgstr "Opptak pågår fremdeles"
 msgid "Play from here"
 msgstr "Spill av herfra"
 
-#, fuzzy
-#| msgid "Execution time"
 msgid "Exectute Single"
-msgstr "Eksekveringsvarighet"
+msgstr ""
 
-#, fuzzy
 msgid "Next Action"
 msgstr "Neste handling"
 
